@@ -26,7 +26,6 @@ This project is an Inventory Management application built with Next.js, Firebase
 - Firebase Account
 - SendGrid Account
 - OpenAI API Key
-![image](https://github.com/user-attachments/assets/f4f64631-48c5-4068-80ea-bd2b71d4b7c6)
 
 ### Installation
 
