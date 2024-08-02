@@ -52,6 +52,9 @@ const Navbar = () => {
                                 <Button color="inherit" onClick={() => router.push('/insights')} sx={{ mr: 2 }}>
                                     Insights
                                 </Button>
+                                <Button color="inherit" onClick={() => router.push('/recipesuggestion')} sx={{ mr: 2 }}>
+                                    AI Suggestion
+                                </Button>
                                 <Button color="inherit" onClick={handleLogout}>
                                     Logout
                                 </Button>
@@ -70,6 +73,7 @@ const Navbar = () => {
                                 >
                                     <MenuItem onClick={() => { handleClose(); router.push('dashboard/dashboard'); }}>Dashboard</MenuItem>
                                     <MenuItem onClick={() => { handleClose(); router.push('/insights'); }}>Insights</MenuItem>
+                                    <MenuItem onClick={() => { handleClose(); router.push('/recipesuggestion');}}>AI Receipe Suggestion</MenuItem>
                                     <MenuItem onClick={() => { handleClose(); handleLogout(); }}>Logout</MenuItem>
                                 </Menu>
                             </Box>
